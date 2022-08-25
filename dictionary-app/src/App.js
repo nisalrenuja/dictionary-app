@@ -1,6 +1,7 @@
 import { createContext, useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
+import ResultList from "./components/ResultList";
 
 //Create context
 export const InputContext = createContext();
@@ -18,6 +19,7 @@ function App() {
     <InputContext.Provider value={value}>
       <div className="App">
         <Header />
+        <ResultList/>
       </div>
     </InputContext.Provider>
   );

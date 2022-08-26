@@ -1,5 +1,6 @@
 import { createContext, useState } from "react";
 import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ResultList from "./components/ResultList";
 
@@ -19,8 +20,9 @@ function App() {
     <InputContext.Provider value={value}>
       <div className="App">
         <Header />
-        <ResultList/>
+        <ResultList />
       </div>
+      <Footer />
     </InputContext.Provider>
   );
 }

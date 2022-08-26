@@ -30,15 +30,15 @@ function Header() {
         <div className="flex items-center justify-center mt-5">
           <div className="flex-border-2 border-gray-200 rounded">
             <input
-              className="px-4 py-2 md:w-80"
+              className="px-4 py-2 md:w-80 rounded-l-lg outline-none text-white bg-gray-900 pl-5 focus:outline-none focus:bg-white focus:text-gray-900"
               type="text"
-              placeholder="Search..."
+              placeholder="Type to Search"
               onChange={handleInputChange}
               onKeyDown={handleInputKeyDown}
               value={value}
             />
             <button
-              className="bg-purple-800 border-l px-4 py-2 text-white"
+              className="bg-red-600 px-4 py-2 rounded-r-lg outline-none text-cyan-50"
               onClick={handleSubmit}
             >
               Search

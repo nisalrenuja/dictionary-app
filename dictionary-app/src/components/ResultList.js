@@ -1,10 +1,9 @@
 import axios from "axios";
 import { useContext, useEffect, useState } from "react";
 import { InputContext } from "../App";
-import Antonym from "./Antonym";
 import Example from "./Example";
 import MeaningList from "./MeaningList";
-import Synonym from "./Synonym";
+
 
 axios.defaults.baseURL = "https://api.dictionaryapi.dev/api/v2/entries/en";
 
